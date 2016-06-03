@@ -12,6 +12,7 @@
 		818CF3D81D02030100533E13 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 818CF3D61D02030100533E13 /* Main.storyboard */; };
 		818CF3DA1D02030100533E13 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 818CF3D91D02030100533E13 /* Assets.xcassets */; };
 		818CF3DD1D02030100533E13 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 818CF3DB1D02030100533E13 /* LaunchScreen.storyboard */; };
+		818CF3E51D02041300533E13 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 818CF3E41D02041300533E13 /* AVFoundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		818CF3D91D02030100533E13 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		818CF3DC1D02030100533E13 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		818CF3DE1D02030100533E13 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		818CF3E41D02041300533E13 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +31,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				818CF3E51D02041300533E13 /* AVFoundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -38,6 +41,7 @@
 		818CF3C61D02030000533E13 = {
 			isa = PBXGroup;
 			children = (
+				818CF3E41D02041300533E13 /* AVFoundation.framework */,
 				818CF3D11D02030100533E13 /* Musica */,
 				818CF3D01D02030100533E13 /* Products */,
 			);
